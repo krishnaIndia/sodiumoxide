@@ -11,3 +11,5 @@ Cargo.lock
 libsodium-sys/target
 
 /third_party_libs
+
+/.idea
