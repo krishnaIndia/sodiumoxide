@@ -10,4 +10,4 @@ Cargo.lock
 /target
 libsodium-sys/target
 
-/lib
+/third_party_libs
