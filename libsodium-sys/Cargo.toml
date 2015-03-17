@@ -6,6 +6,9 @@ authors = []
 links = "sodium"
 build = "build.rs"
 
+[build-dependencies.pkg-config]
+pkg-config = "0.3.1"
+
 [lib]
   name = "libsodium-sys"
   path = "lib.rs"
