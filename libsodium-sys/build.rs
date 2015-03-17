@@ -9,6 +9,6 @@ fn find_static_lib(lib_name: &str) -> bool {
 
 fn main () {
   if !find_static_lib("sodium") {
-    println!("cargo:rustc-flags=-l sodium -L third-party-libs/");
+    println!("cargo:rustc-flags=-l sodium -L third_party_libs/");
   }
 }
